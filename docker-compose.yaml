@@ -274,11 +274,6 @@ services:
     restart: always
     ports:
       - 3000:3000
-  kali:
-    image: kalilinux/kali-rolling
-    container_name: kali
-    command:
-      - bash
 volumes:
   postgres-db-volume:
   prometheus_data: 
